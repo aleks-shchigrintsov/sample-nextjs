@@ -4,17 +4,15 @@ export default function Home() {
       {/* left side */}
       <div className="lg:w-1/2 relative z-10 flex flex-col justify-center px-10 lg:px-20 py-20 lg:py-0 text-left">
         <h2 className="inter text-4xl mb-3 font-bold text-gray-800">
-          Welcome to Your Next.js App{" "}
-          <span className="block text-blue-500 text-2xl font-normal">
+          OLLOMS SP. Z O.O.
+          {/* <span className="block text-blue-500 text-2xl font-normal">
             Deployed to DigitalOcean
-          </span>
+          </span> */}
         </h2>
 
-        <p className="text-gray-700 mb-6">
-          Deploy API routes, static frontend, databases, and more.
-        </p>
+        <p className="text-gray-700 mb-6">@ 2021 olloms.com</p>
 
-        <div className="sm:flex">
+        {/* <div className="sm:flex">
           <a
             href="https://www.digitalocean.com/docs/app-platform"
             className="block py-2 px-5 rounded shadow bg-gray-500 text-gray-100 sm:mr-2 mb-2 sm:mb-0"
@@ -27,7 +25,7 @@ export default function Home() {
           >
             View Your Dashboard
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* right side */}
@@ -47,5 +45,5 @@ export default function Home() {
         />
       </div>
     </div>
-  );
+  )
 }
